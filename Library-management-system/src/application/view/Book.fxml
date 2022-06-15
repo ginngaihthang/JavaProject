@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="450.0" prefWidth="597.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.BookController">
+   <children>
+      <Pane layoutX="108.0" layoutY="119.0" onMouseClicked="#add_book_click" prefHeight="116.0" prefWidth="187.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <Label layoutX="29.0" layoutY="94.0" text="Add New Book">
+               <font>
+                  <Font name="Poor Richard" size="14.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="79.0" fitWidth="84.0" layoutX="54.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/istockphoto-946545978-170667a.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="301.0" layoutY="119.0" onMouseClicked="#edit_book_click" prefHeight="116.0" prefWidth="187.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <ImageView fitHeight="106.0" fitWidth="153.0" layoutX="17.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/Books-Icon-by-Zafreeloicon-67-580x386.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="24.0" layoutY="94.0" text="Edit Book">
+               <font>
+                  <Font name="Poor Richard" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="108.0" layoutY="241.0" onMouseClicked="#delete_book_click" prefHeight="116.0" prefWidth="187.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <ImageView fitHeight="79.0" fitWidth="70.0" layoutX="59.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/depositphotos_235391442-stock-illustration-delete-book-online-icon-simple.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="28.0" layoutY="94.0" text="Delete Book">
+               <font>
+                  <Font name="Poor Richard" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="301.0" layoutY="241.0" onMouseClicked="#search_book_click" prefHeight="116.0" prefWidth="187.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <Label layoutX="26.0" layoutY="94.0" prefHeight="16.0" prefWidth="70.0" text="Search Book">
+               <font>
+                  <Font name="Poor Richard" size="14.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="79.0" fitWidth="84.0" layoutX="54.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/43.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane prefHeight="69.0" prefWidth="597.0" style="-fx-background-color: blue;">
+         <children>
+            <Label layoutX="222.0" layoutY="20.0" text="Book Information" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Button layoutX="492.0" layoutY="411.0" mnemonicParsing="false" onAction="#btn_back_click" prefHeight="25.0" prefWidth="70.0" style="-fx-background-color: #FF8066;" text="Back" textFill="WHITE" />
+   </children>
+</AnchorPane>

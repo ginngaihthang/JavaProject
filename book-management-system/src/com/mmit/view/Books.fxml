@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #C4FCEF;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mmit.controller.BooksController">
+   <children>
+      <Button layoutX="166.0" layoutY="78.0" mnemonicParsing="false" onAction="#btn_add_click" prefHeight="30.0" prefWidth="269.0" style="-fx-background-color: #00C9A7;" text="Add Book" />
+      <Button layoutX="166.0" layoutY="127.0" mnemonicParsing="false" onAction="#btn_edit_click" prefHeight="30.0" prefWidth="269.0" style="-fx-background-color: #00C9A7;" text="Edit Book">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="166.0" layoutY="177.0" mnemonicParsing="false" onAction="#btn_delete_click" prefHeight="30.0" prefWidth="269.0" style="-fx-background-color: #FF8066;" text="Delete Book" />
+      <Button layoutX="166.0" layoutY="227.0" mnemonicParsing="false" onAction="#btn_search_click" prefHeight="30.0" prefWidth="269.0" style="-fx-background-color: #C493FF;" text="Search Book" />
+      <Button layoutX="486.0" layoutY="345.0" mnemonicParsing="false" onAction="#btn_home_click" prefHeight="30.0" prefWidth="80.0" style="-fx-background-color: #C493FF;" text="Home" />
+   </children>
+</AnchorPane>
